@@ -1,4 +1,4 @@
-# Gerador de cRUDs para laravel
+# Gerador de CRUDs para laravel
 Gerador de CRUDs para laravel com suporte a API
 
 Gerador de CRUDs para Laravel
