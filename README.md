@@ -17,7 +17,7 @@ php artisan crud:generate Posts --fields='title#string; email#string;' --control
 
 ## Adjusts routes in /routes/web:
 
-Route::resource('admin/products', 'App\Http\Controllers\Admin\ProductsController');
+Route::resource('/posts', 'App\Http\Controllers\Admin\PostsController');
 
 php artisan route:clear
 
