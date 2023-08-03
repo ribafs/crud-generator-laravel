@@ -29,4 +29,4 @@ http://127.0.0.1:8000/posts
 
 php artisan route:list
 
-## [Tutorial para API](api-tutorial.md)
+## [Tutorial para API](api-tutorial.md) (in pt-br)
