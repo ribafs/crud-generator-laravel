@@ -21,6 +21,8 @@ Route::resource('admin/products', 'App\Http\Controllers\Admin\ProductsController
 
 php artisan route:clear
 
+php artisan migrate
+
 php artisan serve
 
 http://127.0.0.1:8000/posts
