@@ -7,7 +7,7 @@ Com suporte ao laravel 9 e 10
 
 https://github.com/sohelamin/crud-generator
 
-composer require ribafs/crud-generator-laravel --dev
+composer require appzcoder/crud-generator --dev
 
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
 
