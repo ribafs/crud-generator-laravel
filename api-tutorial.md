@@ -10,7 +10,7 @@ cd api-customers
 
 ## Install generator
 ```php
-composer require ribafs/crud-generator-appzcoder
+composer require appzcoder/crud-generator --dev
 ```
 ## Publishe
 ```php
@@ -39,7 +39,6 @@ php artisan migrate
 php artisan serve
 ```
 http://localhost:8000/api/customers
-
 
 ## Using with Insomnia
 
@@ -71,7 +70,6 @@ http://localhost:8000/api/clientes - SEND
 	"id": 1
 }
 ```
-
 ## Query
 
 http://localhost:8000/api/clientes - GET
@@ -92,7 +90,6 @@ http://localhost:8000/api/clientes - GET
 ...
 }
 ```
-
 ## Update
 
 PATCH  http://localhost:8000/api/clientes/1
