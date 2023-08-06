@@ -15,7 +15,7 @@ php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServ
 ```sh
 php artisan crud:generate Posts --fields='title#string; email#string;' --controller-namespace=App\\Http\\Controllers --form-helper=html
 ```
-## Adjusts routes in /routes/web:
+## Adicionar a rota em /routes/web.php:
 ```sh
 Route::resource('/posts', 'App\Http\Controllers\PostsController');
 
