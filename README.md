@@ -11,7 +11,7 @@ composer require appzcoder/crud-generator --dev
 
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
 ```
-Example
+## Example de criação de CRUD
 ```sh
 php artisan crud:generate Posts --fields='title#string; email#string;' --controller-namespace=App\\Http\\Controllers --form-helper=html
 ```
