@@ -27,7 +27,7 @@ php artisan serve
 ```
 http://127.0.0.1:8000/posts
 
-## In case of problem run:
+## Em caso de problema execute:
 ```sh
 php artisan route:list
 ```
