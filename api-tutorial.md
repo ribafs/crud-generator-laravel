@@ -51,6 +51,10 @@ Route::post('customers', [CustomersController::class, 'store'])->name('customers
 Route::post('customers/{id}', [CustomersController::class, 'update'])->name('customers.update');
 Route::delete('customers/{id}', [CustomersController::class, 'destroy'])->name('customers.destroy');
 ```
+or
+```
+Route::resource('customers', CustomersController::class);
+```
 ## Using with Insomnia
 
 ## Configurations
