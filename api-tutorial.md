@@ -40,6 +40,17 @@ php artisan serve
 ```
 http://localhost:8000/api/customers
 
+## Route
+Add in routes/api.php
+
+use App\Http\Controllers\Api\CustomersController;
+
+Route::get('customers', [CustomersController::class, 'index'])->name('customers.all');
+Route::get('customers/{id}', [CustomersController::class, 'show'])->name('customers.one');
+Route::post('customers', [CustomersController::class, 'store'])->name('customers.store');
+Route::post('customers/{id}', [CustomersController::class, 'update'])->name('customers.update');
+Route::delete('customers/{id}', [CustomersController::class, 'destroy'])->name('customers.destroy');
+
 ## Using with Insomnia
 
 ## Configurations
