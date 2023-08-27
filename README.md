@@ -26,9 +26,5 @@ php artisan migrate
 php artisan serve
 ```
 http://127.0.0.1:8000/posts
-
-## Em caso de problema execute:
-```sh
-php artisan route:list
-```
+`
 ## [Tutorial para API](api-tutorial.md) (in pt-br)
