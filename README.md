@@ -13,7 +13,7 @@ php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServ
 ```
 ## Example de criação de CRUD
 ```sh
-php artisan crud:generate Posts --fields='title#string; email#string;' --controller-namespace=App\\Http\\Controllers --form-helper=html
+php artisan crud:generate Posts --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers --form-helper=html
 ```
 ## Adicionar a rota em /routes/web.php:
 ```sh
